@@ -48,3 +48,11 @@ console.log("--- PokeDesk ---\nNome: "+nomePokemon
 +"\nPontos de Vida: "+pontosDeVida
 +"\nSexo do Pokemon: "+sexoPokemon
 +"\nStatus do Pokemon: "+mostrarStatus)
+
+//Aprendendo sobre vetores
+//como construir uma coleção
+
+let Pokemons = ["Pikachu", "Bulbasaur", "Charmander"]
+
+console.log("Nomes: "+Pokemons)
+

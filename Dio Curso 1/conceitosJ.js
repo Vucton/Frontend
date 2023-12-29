@@ -1,4 +1,7 @@
-/*
+//-------------- ALGORITMO COM JAVASCRIPT --------------
+
+
+
 //Messagem de de inicio do meu programa | output
 console.log("Informe seu nome de Jogador: ")
 
@@ -9,7 +12,7 @@ concatenando uma messagem com uma variavel | meu output
 console.log("Bem Vindo "+ nickname)
 
 console.log(nickname+" Entrou no servidor global")
-*/
+
 
 //declarando uma constante
 const notificacao = "Pokemon Go diz: " //uma constante é valor que nao varia
@@ -56,3 +59,29 @@ let Pokemons = ["Pikachu", "Bulbasaur", "Charmander"]
 
 console.log("Nomes: "+Pokemons)
 
+//Em javascript o operador '=' tem 3 maneiras diferentes de usar
+
+//atribuição de um valor
+let numero = 1
+
+//comparar o valor
+console.log(numero == 1)
+
+//comparar o valor e o tipo do conteudo
+console.log(numero === "1")
+
+//verifica se o valor é diferente
+let marca = "Fiat"
+
+console.log(marca !== "fiat")
+
+
+let idade = 18
+let visto = "aprovado"
+let nomeUsuario = "Joao Victor"
+
+if ((idade >= 18) && (visto !== "negado")){
+  console.log("Passageiro "+nomeUsuario+" de "+idade+" anos pode viajar, seu visto foi "+visto)
+}else{
+  console.log("Passageiro "+nomeUsuario+" de "+idade+" anos nao pode viajar, seu visto foi "+visto)
+}

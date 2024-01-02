@@ -64,3 +64,76 @@ div.newPost div.inforUser strong{
     margin-left: 10px;
     color: #23abff;
 }
+
+div.newPost form.formPost{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+div.newPost form.formPost textarea{
+    height: 90px;
+    margin: 15px 0;
+    background: #fbfbfb;
+    outline: none;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    padding-top: 5%;
+    border: 0;
+
+    font-weight: bold;
+    color: #727272;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.newPost form.formPost div.iconsAndButton div.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100px;
+
+}
+
+div.newPost form.formPost div.iconsAndButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+div.newPost form.formPost div.iconsAndButton div.icons button{
+    outline: none;
+    background: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+div.newPost form.formPost div.iconsAndButton .btnSubmitForm{
+ outline: none;
+ border-radius: 10px;
+ border: none;
+ 
+ /* Nao colocar virgula no padding isso pode nao funcionar e achar que o codigo esta errado*/
+ padding: 10px 50px;
+ background: #23abff;
+ color: #fbfbfb;
+
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
+ cursor: pointer;
+ transition: background 0.2s;
+
+}
+
+div.newPost form.formPost div.iconsAndButton .btnSubmitForm:hover{
+    background: #5cbaf5;
+}
